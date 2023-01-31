@@ -1,4 +1,4 @@
-html {
+/* html {
   box-sizing: border-box;
   width: 100vw;
   overflow-x: hidden;
@@ -29,17 +29,16 @@ img {
 /*
  * Стили компонента App
  */
-.App {
+/* .App { 
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 16px;
-  padding-bottom: 24px;
-}
+  padding-bottom: 24px; } */
 
 /*
  * Стили компонента Searchbar
  */
-.Searchbar {
+/*.Searchbar {
   top: 0;
   left: 0;
   position: sticky;
@@ -61,7 +60,7 @@ img {
 /*
  * Стили компонента SearchForm
  */
-.SearchForm {
+/*.SearchForm {
   display: flex;
   align-items: center;
   width: 100%;
@@ -121,7 +120,7 @@ img {
 /*
  * Стили компонента ImageGallery
  */
-.ImageGallery {
+/*.ImageGallery {
   display: grid;
   max-width: calc(100vw - 48px);
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -137,7 +136,7 @@ img {
 /*
  * Стили компонента ImageGalleryItem
  */
-.ImageGalleryItem {
+/*.ImageGalleryItem {
   border-radius: 2px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
@@ -159,7 +158,7 @@ img {
  * Стили компонента Modal
  */
 
-.Overlay {
+./*Overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -180,7 +179,7 @@ img {
 /*
 * Стили компонента Buton (Load more)
 */
-.Button {
+/*.Button {
   padding: 8px 16px;
   border-radius: 2px;
   background-color: #3f51b5;
@@ -204,4 +203,4 @@ img {
 .Button:hover,
 .Button:focus {
   background-color: #303f9f;
-}
+} */
